@@ -16,9 +16,9 @@ export const TradingMainView = ({ symbol }: IProps) => {
 
 			<TradingView
 				symbol={symbol}
-				libraryPath="/tradingview/charting_library/bundles"
-				tradingViewScriptSrc="/tradingview/charting_library/charting_library.js"
-				tradingViewCustomCssUrl="/tradingview/chart.css"
+				libraryPath="https://sdk-demo.orderly.network/tradingview/charting_library/bundles"
+				tradingViewScriptSrc="https://sdk-demo.orderly.network/tradingview/charting_library/charting_library.js"
+				tradingViewCustomCssUrl="https://sdk-demo.orderly.network/tradingview/chart.css"
 				loadingElement={<IconLoading />}
 				overrides={{
 					'mainSeriesProperties.candleStyle.borderDownColor': '#DC2140',
